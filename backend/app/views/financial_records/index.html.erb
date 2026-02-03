@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Financial records</h1>
+
+<div id="financial_records">
+  <% @financial_records.each do |financial_record| %>
+    <%= render financial_record %>
+    <p>
+      <%= link_to "Show this financial record", financial_record %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New financial record", new_financial_record_path %>

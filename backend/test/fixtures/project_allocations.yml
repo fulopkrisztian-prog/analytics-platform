@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project: one
+  worker: one
+  resource: one
+  user: one
+  hours_worked: 9.99
+  quantity: 1
+  allocation_date: 2026-02-03
+
+two:
+  project: two
+  worker: two
+  resource: two
+  user: two
+  hours_worked: 9.99
+  quantity: 1
+  allocation_date: 2026-02-03
